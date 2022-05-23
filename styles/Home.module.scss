@@ -1,0 +1,26 @@
+.container {
+  background-color: #1a1a2e;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  .circle {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: blur(400px);
+    @media screen and (max-width: 425px) {
+      filter: blur(70px);
+    }
+    &:nth-child(1) {
+      background-color: #030084;
+      top: -40vw;
+    }
+    &:nth-child(2) {
+      background-color: #710101;
+      bottom: -40vw;
+    }
+  }
+}

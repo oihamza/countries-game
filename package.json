@@ -1,0 +1,28 @@
+{
+  "name": "countries-game",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "countries-list": "^2.6.1",
+    "country-list": "^2.2.0",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-countdown-hook": "^1.1.1",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.3.1",
+    "react-select-country-list": "^2.2.3",
+    "react-simple-maps": "^2.3.0",
+    "react-tooltip": "^4.2.21",
+    "sass": "^1.51.0"
+  },
+  "devDependencies": {
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
